@@ -9,7 +9,7 @@ $dubBoard = Marshal.load(Marshal.dump($Board))
 
 i = 1 #行
 j = 1 #列
-turn = 1 #1=黒　2=白を示す
+turn = 1 #1=赤　2=白を示す
 passCount = 0 #パスが連続して二回続く、つまりお互いおけなくなるとゲーム終了判定
 l = 0 #ひっくり返せる個数、AIが判定用に使う
 ai = 0 #0:AIなし　1:AI黒　2:AI白
